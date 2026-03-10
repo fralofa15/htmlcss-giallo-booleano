@@ -10,4 +10,41 @@
         display: inline;
     }
 
+    .quick-notes ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .social-networks {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	margin-bottom: 10px;
+    padding: 0px 15px;
+}
+
+
+    .fa-facebook {
+        color: #1a77f3;
+        padding: 5px 30px;
+    }
+
+    .fa-twitter {
+        color: #009eff;
+        padding: 5px 30px;
+    }
+
+    .fa-pinterest,
+    .fa-youtube {
+        color: #e62222;
+        padding: 5px 30px;
+    }
+
+    .fa-instagram {
+        color: #dc3d78;
+        padding: 5px 30px;
+    }
 }
