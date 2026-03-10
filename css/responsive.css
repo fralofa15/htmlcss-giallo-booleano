@@ -146,4 +146,14 @@
         margin-bottom: 10px;
         box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
     }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    address{
+        text-align: left;
+    }
 }
