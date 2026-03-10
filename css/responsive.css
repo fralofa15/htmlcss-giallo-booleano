@@ -1,1 +1,13 @@
 /* Soluzione qui */
+@media screen and (min-width: 576px) {
+
+    #topbar {
+        display: block;
+        left: 100%;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+}
